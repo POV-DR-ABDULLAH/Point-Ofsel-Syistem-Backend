@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "json-server": "0.17.4"
+    "json-server": "^1.0.0-beta.3"
   },
   "scripts": {
-    "start": "npx json-server --watch db.json --port 5000"
+    "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
